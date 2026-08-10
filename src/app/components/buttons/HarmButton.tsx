@@ -20,7 +20,6 @@ export default function HarmButton() {
                     <button onClick={() => setHarmTarget("others")}>Others</button>
                 </div>
             )}
-
             {harmIntent !== null && (
                 <p>
                     You selected:{" "}

@@ -8,7 +8,6 @@ export default function Home() {
       <h1>Moody Daily Log</h1>
 
       <div>
-        <h2>Daily Buttons</h2>
         <MedsButtons />
         <HarmButton />
         <OtherSymptomsButton />

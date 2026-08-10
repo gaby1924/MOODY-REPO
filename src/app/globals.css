@@ -1,23 +1,49 @@
 @import "tailwindcss";
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-quicksand);
-  --font-mono: var(--font-quicksand);
 }
-
+/****DARK MODE****/
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
-
+/****BODY****/
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Quicksand", sans-serif;
+}
+/****BUTTONS****/
+button {
+  color: white;
+  border: none;
+  font-family: var(--font-quicksand);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+button:hover {
+  transform: scale(1.05);
+  background-color: navy;
+}
+button:active {
+  transform: scale(0.95);
+}
+/***CARDS****/
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0ff;
+}
+.button-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
 }
