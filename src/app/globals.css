@@ -21,11 +21,14 @@ body {
 }
 /****BUTTONS****/
 button {
-  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4a6cf7;
+  color: #fff;
+  border-radius: 6px;
   border: none;
-  font-family: var(--font-quicksand);
-  font-size: 16px;
   cursor: pointer;
+  font-size: 16px;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 button:hover {
@@ -43,7 +46,12 @@ button:active {
   border: 1px solid #e0e0ff;
 }
 .button-row {
-  display: flex;
-  gap: 12px;
-  margin-top: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4a6cf7;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 }
