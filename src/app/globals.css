@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+/* ROOT VARIABLES */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -6,49 +8,57 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-quicksand);
 }
-/****DARK MODE****/
+
+/* DARK MODE */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
-/****BODY****/
+
+/* BODY */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Quicksand", sans-serif;
 }
-/****BUTTONS****/
+
+/* BUTTONS — unified Moody style */
 button {
   margin-top: 20px;
   padding: 10px 20px;
+  background-color: #4a6cf7;
+  /* Moody blue */
   color: #fff;
   border-radius: 6px;
   border: none;
   cursor: pointer;
   font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
+
 button:hover {
+  background-color: #3f5be0;
   transform: scale(1.05);
-  background-color: #4a6cf7;
 }
+
 button:active {
   transform: scale(0.95);
 }
-/***CARDS****/
+
+/* CARDS */
 .card {
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 20px;
   border: 1px solid #e0e0ff;
 }
+
+/* BUTTON ROWS */
 .button-row {
-  margin-top: 20px;
-  padding: 10px 20px;
-  color: #fff;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
 }

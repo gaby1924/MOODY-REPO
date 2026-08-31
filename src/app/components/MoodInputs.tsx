@@ -54,17 +54,7 @@ export default function MoodInputs({ onSave }: MoodInputsProps) {
             />
 
             <button
-                onClick={() => onSave(moods)}
-                style={{
-                    marginTop: "20px",
-                    padding: "10px 20px",
-                    background: "#4a6cf7",
-                    color: "#fff",
-                    borderRadius: "6px",
-                    border: "none",
-                    cursor: "pointer",
-                }}
-            >
+                onClick={() => onSave(moods)}>
                 Save Today's Mood
             </button>
         </div>
