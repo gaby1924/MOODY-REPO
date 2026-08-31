@@ -7,7 +7,7 @@ export default function OtherSymptomsButton() {
 
     return (
         <div className="card">
-             <h3>Other symptoms?</h3>
+             <h3>Are you experiencing other symptoms?</h3>
 
       <div className="button-row">
         <button onClick={() => setOtherSymptoms(true)}>Yes</button>
