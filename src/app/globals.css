@@ -23,17 +23,15 @@ body {
 button {
   margin-top: 20px;
   padding: 10px 20px;
-  background: #4a6cf7;
   color: #fff;
   border-radius: 6px;
   border: none;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 button:hover {
   transform: scale(1.05);
-  background-color: navy;
+  background-color: #4a6cf7;
 }
 button:active {
   transform: scale(0.95);
@@ -48,7 +46,6 @@ button:active {
 .button-row {
   margin-top: 20px;
   padding: 10px 20px;
-  background: #4a6cf7;
   color: #fff;
   border-radius: 6px;
   border: none;
