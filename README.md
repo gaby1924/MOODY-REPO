@@ -18,6 +18,7 @@ application stores data locally.
 * Tailwind
 * TypeScript
 * ESLint
+* Hosted on Vercel 
 
 
 # NOTE:
