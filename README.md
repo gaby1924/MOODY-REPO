@@ -17,6 +17,7 @@ application stores data locally.
 * Node.js
 * Tailwind
 * TypeScript
+* CSS
 * ESLint
 * Hosted on Vercel 
 
